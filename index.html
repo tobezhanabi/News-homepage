@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Inter:wght@400;700;800&family=Karla:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>News homepage</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="top-container header" id="myTopnav">
+      <div class="top-logo">
+        <a href="#"><img src="./assets/images/logo.svg" alt="my logo" /></a>
+      </div>
+
+      <div class="topnav">
+        <a href="#">Home</a>
+        <a href="#">New</a>
+        <a href="#">Popular</a>
+        <a href="#">Trending</a>
+        <a href="#">Categories</a>
+      </div>
+    </div>
+    <!--mob version-->
+    <div class="mob-menu">
+      <a class="mob-logo" href="#"
+        ><img src="./assets/images/logo.svg" alt="my logo"
+      /></a>
+      <img class="mob-open" src="./assets/images/icon-menu.svg" alt="open" />
+      <div class="mob-wrapper close">
+        <img
+          class="mob-close"
+          src="./assets/images/icon-menu-close.svg"
+          alt="closesvg"
+        />
+        <div class="mob-list">
+          <a href="#" class="mob-list_item">Home</a>
+          <a href="#" class="mob-list_item">New</a>
+          <a href="#" class="mob-list_item">Popular</a>
+          <a href="#" class="mob-list_item">Trending</a>
+          <a href="#" class="mob-list_item">Categories</a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="left-column">
+        <picture class="card">
+          <source
+            srcset="./assets/images/image-web-3-mobile.jpg"
+            media="(max-width: 576px)"
+          />
+          <source srcset="./assets/images/image-web-3-desktop.jpg" />
+          <img src="./assets/images/image-web-3-desktop.jpg" alt="Flowers" />
+        </picture>
+        <div class="row1">
+          <div class="heading"><h1>The Bright Future of Web 3.0?</h1></div>
+          <div class="intro">
+            <p>
+              We dive into the next evolution of the web that claims to put the
+              power of the platforms back into the hands of the people. But is
+              it really fulfilling its promise?
+            </p>
+            <button>READ MORE</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="right-column">
+        <h2>New</h2>
+
+        <h4><a href="#">Hydrogen VS Electric Cars</a></h4>
+        <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+        <div class="line-1"></div>
+        <h4><a href="#">The Downsides of AI Artistry</a></h4>
+        <p>
+          What are the possible adverse effects of on-demand AI image
+          generation?
+        </p>
+        <div class="line-1"></div>
+        <h4><a href="#"> Is VC Funding Drying Up?</a></h4>
+        <p>
+          Private funding by VC firms is down 50% YOY. We take a look at what
+          that means.
+        </p>
+      </div>
+    </div>
+
+    <div class="box-container">
+      <div class="top-box">
+        <div class="box1">
+          <img src="./assets/images/image-retro-pcs.jpg" />
+          <div>
+            <h1>01</h1>
+            <a href="#"><h3>Reviving Retro PCs</h3></a>
+
+            <p>What happens when old PCs are given modern upgrades?</p>
+          </div>
+        </div>
+        <div class="box2">
+          <img src="./assets/images/image-top-laptops.jpg" />
+          <div>
+            <h1>02</h1>
+            <a href="#"><h3>Top 10 Laptops of 2022</h3></a>
+
+            <p>Our best picks for various needs and budgets.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="box3">
+        <img src="./assets/images/image-gaming-growth.jpg" />
+        <div>
+          <h1>03</h1>
+          <a href="#"><h3>The Growth of Gaming</h3></a>
+          <p>How the pandemic has sparked fresh opportunities.</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
