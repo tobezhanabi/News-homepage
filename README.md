@@ -45,7 +45,7 @@ mobile
 ### Links
 
 - Solution URL: [solution URL here](https://github.com/tobezhanabi/News-homepage)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [ live site URL here](https://tobezhanabi.github.io/News-homepage/)
 
 ## My process
 
